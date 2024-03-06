@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:51:44 p. m."/>
+        <attribute name="created" value="VXN1YXJpbztQQzsyMDI0LTAzLTA2OzA0OjQzOjI5IHAuIG0uOzIzNjI="/>
+        <attribute name="edited" value="VXN1YXJpbztQQzsyMDI0LTAzLTA2OzA0OjUxOjQ0IHAuIG0uOzE7MjQ2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Real" array="False" size=""/>
+            <output expression="&quot;&#191;Cual fue la calificacion?&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;ACREDITASTE!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NO ACREDITASTE, MEJOR SUERTE EL PROXIMO PARCIAL&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
