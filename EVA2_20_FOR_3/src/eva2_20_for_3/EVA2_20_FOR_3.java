@@ -73,6 +73,16 @@ public class EVA2_20_FOR_3 {
             System.out.println();
         }
         
+        System.out.println("==== PROBLEMA 4 ====");
+        System.out.print("Introduce el numero entero: ");
+        num2 = captu.nextInt();
+        
+        for (int i = 1; i <= num2; i++) {
+            for (int j = i; j <=num2; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         //ALICIA ESCALANTE SOSA  No.control:24550008
         
     }
